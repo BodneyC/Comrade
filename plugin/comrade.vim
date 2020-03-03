@@ -9,7 +9,7 @@ let s:comrade_patch_version = 1
 let g:comrade_version = s:comrade_major_version .
       \ '.' . s:comrade_minor_version .
       \ '.' . s:comrade_patch_version
-let g:comrade_enabled = get(g:, 'comrade_enable', v:false)
+let g:comrade_enabled = get(g:, 'comrade_enabled', v:false)
 
 let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 let s:init_path = s:path . '/init.py'
