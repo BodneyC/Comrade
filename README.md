@@ -54,6 +54,16 @@ other in a short time.
 
 Also, the file write action (`:w`) will be taken over by the IDE to avoid content conflicts.
 
+### Enabling in Nvim
+
+To enable automatically when nvim is opened, set:
+
+    let g:comrade_enabled = v:true
+
+, in your config. To start at will, use:
+
+    :ComradeInit
+
 ### Completion
 
 If the [deoplete](https://github.com/Shougo/deoplete.nvim) is installed and enabled, the
